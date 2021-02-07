@@ -18,6 +18,7 @@ def read_excel():
     # A1
     path = input("Введите полный путь к папке с файлами: ")
     # /Users/vvkaban2/Desktop/fold
+    # C:\Users\yasup\Desktop
 
     excel_data_df = pandas.read_excel(excel_file)
     excel_data_df.head()
